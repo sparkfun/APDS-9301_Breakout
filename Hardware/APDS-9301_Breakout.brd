@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -154,7 +154,7 @@
 </layers>
 <board>
 <plain>
-<text x="1.397" y="3.048" size="1.778" layer="21" font="vector" ratio="15" rot="R90" align="center-left">INT</text>
+<text x="1.651" y="3.048" size="1.6764" layer="21" font="vector" ratio="15" rot="R90" align="center-left">!INT</text>
 <text x="3.81" y="3.048" size="1.778" layer="21" font="vector" ratio="15" rot="R90" align="center-left">GND</text>
 <text x="6.35" y="3.048" size="1.778" layer="21" font="vector" ratio="15" rot="R90" align="center-left">3.3V</text>
 <text x="8.89" y="3.048" size="1.778" layer="21" font="vector" ratio="15" rot="R90" align="center-left">SDA</text>
@@ -955,6 +955,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="5,16,33d811ea140fc16e"/>
 <approved hash="5,16,33d811d61c33c96e"/>
 <approved hash="4,16,2d4f5d6d501cd617"/>
+<approved hash="3,16,839caf941a45364d"/>
 </errors>
 </board>
 </drawing>

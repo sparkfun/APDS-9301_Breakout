@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8866,6 +8866,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 0x49 - LOW</text>
 <text x="165.1" y="7.62" size="3.81" layer="97">M. Hord</text>
 <text x="239.522" y="6.858" size="3.81" layer="97">10</text>
+<text x="129.54" y="116.84" size="1.778" layer="97">2.7V &lt; VCC &lt; 3.6V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
