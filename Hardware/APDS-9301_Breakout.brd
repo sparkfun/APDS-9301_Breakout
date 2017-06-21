@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -166,11 +166,14 @@
 <text x="0.635" y="14.097" size="1.016" layer="21" font="vector" ratio="15" align="center-left">APDS-9301</text>
 <text x="4.064" y="5.08" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center">HIGH</text>
 <text x="8.636" y="5.08" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center">LOW</text>
-<text x="-69.85" y="-25.4" size="1.778" layer="51" font="vector" ratio="15">M. Hord</text>
+<text x="5.08" y="-16.51" size="1.778" layer="51" font="vector" ratio="15">M. Hord</text>
 <dimension x1="0" y1="15.24" x2="12.7" y2="15.24" x3="6.35" y3="19.05" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="0" y1="15.24" x2="0" y2="0" x3="-3.81" y3="7.62" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<text x="10.668" y="3.175" size="1.016" layer="16" font="vector" ratio="15" rot="MR90">v00</text>
-<text x="7.366" y="6.223" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">JP1</text>
+<text x="10.668" y="3.175" size="1.016" layer="16" font="vector" ratio="15" rot="MR90">v10</text>
+<text x="9.652" y="7.62" size="0.8128" layer="22" font="vector" ratio="15" distance="25" rot="MR0">ADDR
+0x29 - LOW
+0x39 - FLOAT
+0x49 - HIGH</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -760,7 +763,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="C1" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="6.35" y="12.7" rot="R180">
 <attribute name="PROD_ID" value="CAP-08604" x="6.35" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-101.6" y="-25.4"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-26.67" y="-16.51"/>
 <element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_3_NO_SILK" value="JUMPER-SMT_3_NO_SILK" x="6.35" y="5.08" rot="MR0"/>
 <element name="R1" library="SparkFun-Resistors" package="0603" value="4.7k" x="3.556" y="10.16" rot="R90">
 <attribute name="PROD_ID" value="RES-07857" x="3.556" y="10.16" size="1.778" layer="27" rot="R90" display="off"/>
@@ -780,9 +783,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J1" library="SparkFun-Connectors" package="1X04" value="" x="3.81" y="1.27"/>
 <element name="J2" library="SparkFun-Connectors" package="1X01" value="" x="1.27" y="1.27"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="9.525" y="11.684"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="10.16" y="12.7" rot="MR0"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="10.668" y="13.335" rot="MR0"/>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="1.143" y="13.081"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="10.16" y="2.794"/>
+<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="1.27" y="13.97" rot="MR0"/>
+<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="10.16" y="2.54" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -953,4 +958,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

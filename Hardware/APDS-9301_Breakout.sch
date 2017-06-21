@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8854,6 +8854,8 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 </parts>
 <sheets>
 <sheet>
@@ -8863,7 +8865,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 0x39 - FLOAT
 0x49 - LOW</text>
 <text x="165.1" y="7.62" size="3.81" layer="97">M. Hord</text>
-<text x="239.522" y="6.858" size="3.81" layer="97">00</text>
+<text x="239.522" y="6.858" size="3.81" layer="97">10</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -8888,6 +8890,8 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <instance part="LOGO2" gate="G$1" x="119.38" y="10.16"/>
 <instance part="FD1" gate="G$1" x="246.38" y="25.4"/>
 <instance part="FD2" gate="G$1" x="246.38" y="27.94"/>
+<instance part="FD3" gate="G$1" x="243.84" y="27.94"/>
+<instance part="FD4" gate="G$1" x="243.84" y="25.4"/>
 </instances>
 <busses>
 </busses>
