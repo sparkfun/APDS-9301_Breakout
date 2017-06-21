@@ -8860,13 +8860,13 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <sheets>
 <sheet>
 <plain>
-<text x="48.26" y="91.44" size="1.27" layer="97">I2C Address
+<text x="35.56" y="86.36" size="2.54" layer="97">I2C Address
 0x29 - HIGH
 0x39 - FLOAT
 0x49 - LOW</text>
 <text x="165.1" y="7.62" size="3.81" layer="97">M. Hord</text>
 <text x="239.522" y="6.858" size="3.81" layer="97">10</text>
-<text x="129.54" y="116.84" size="1.778" layer="97">2.7V &lt; VCC &lt; 3.6V</text>
+<text x="127" y="114.3" size="2.54" layer="97">2.7V &lt; VCC &lt; 3.6V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
