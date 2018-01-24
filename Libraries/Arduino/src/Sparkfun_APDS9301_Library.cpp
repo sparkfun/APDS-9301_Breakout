@@ -182,10 +182,10 @@ float APDS9301::readLuxLevel()
     break;
   }
 
-  if (getGain() == HIGH_GAIN) 
+  if (getGain() == LOW_GAIN) 
   {
-    ch0 /= 16;
-    ch1 /= 16;
+    ch0 *= 16;
+    ch1 *= 16;
   }
   
   float luxVal = 0.0;
