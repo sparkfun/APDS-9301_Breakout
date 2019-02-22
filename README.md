@@ -17,7 +17,7 @@ Repository Contents
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_APDS9301_Library)** - Arduino library for the APDs-9301.
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/apds-9301-sensor-hookup-guide)** - Basic hookup guide for the APDs-9301 Breakout Board.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/apds-9301-sensor-hookup-guide)** - Basic hookup guide for the APDS-9301 Breakout Board.
 
 License Information
 -------------------
